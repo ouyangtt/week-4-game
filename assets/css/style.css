@@ -1,5 +1,5 @@
 
-#header {
+.header {
 	background: grey;
 	height: 80px;
 	color: white;
@@ -10,7 +10,7 @@
 }
 
 
-#header h1 {
+.header h1 {
 	line-height: 70px;
 	margin: 0px;
 	font-size:60px;

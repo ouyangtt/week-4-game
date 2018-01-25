@@ -12,14 +12,12 @@
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </head>
-<header >
-
-
-  <h1> Crystals Collector Game</h1>
-
-</header>
-
 <body>
+<div class ="header">
+  <h1> Crystals Collector Game</h1>
+</div>
+
+<div class = "rules">
   <p><h2 >Rules:</h2>
         <div>You will be given a random number at the start of the game.</div><br>
         <div>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
@@ -33,10 +31,7 @@
 
         <div><h3>Click Start!</h3></div>
   </p>
-  
-
-
-
+ </div> 
 
 
 <p><input type="button" id="reset" class="btn btn-primary btn-lg" style="cursor:pointer; margin-left: 10px; font-size:18px;" value="Start game / Reset Game"></a></p>
@@ -49,7 +44,12 @@
 
 <div id="crystals">
 </div>
-
+  <style>
+    .fancy {
+      width: 200px;
+      height: 200px;
+    }
+  </style>
 
 </body>
 <div id="footer">
