@@ -1,0 +1,30 @@
+
+#header {
+	background: grey;
+	height: 80px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	margin: 0px;
+	font-size:60px;
+}
+
+
+#header h1 {
+	line-height: 70px;
+	margin: 0px;
+	font-size:60px;
+}
+
+#footer {
+	margin-top:40px;
+	background: grey;
+	height: 60px;
+	color: white;
+}
+
+#footer p {
+	line-height: 60px;
+	margin: 0px;
+	text-align: center;
+}
